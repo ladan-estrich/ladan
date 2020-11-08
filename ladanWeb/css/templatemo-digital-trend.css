@@ -348,7 +348,6 @@ https://templatemo.com/tm-538-digital-trend
 
   .hero {
     position: relative;
-    padding: 5em 0;
     overflow: hidden;
   }
 
@@ -363,15 +362,18 @@ https://templatemo.com/tm-538-digital-trend
 /*---------------------------------------
    Products and Stats
 -----------------------------------------*/
-  .produkte{
-    height: 100%;
-    width: 100%;
-    background-image: url("/ladanWeb/images/EstrichartenFontonly.png");
-    /*background-size: cover;*/
+
+  #productsAndStats {
+    height: auto !important;
+    min-height: 100%;
+    background: url("../images/EstrichartenFontonly.png") no-repeat center;
+    background-size: cover;
+    text-align: center;
   }
 
-
-
+  #value {
+    font-size: 5em;
+  }
 
   /*---------------------------------------
      PROJECT              
