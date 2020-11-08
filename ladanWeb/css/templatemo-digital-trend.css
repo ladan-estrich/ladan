@@ -360,6 +360,16 @@ https://templatemo.com/tm-538-digital-trend
     position: relative;
     top: 1em;
   }
+/*---------------------------------------
+   Products and Stats
+-----------------------------------------*/
+  .produkte{
+    height: 100%;
+    width: 100%;
+    background-image: url("/ladanWeb/images/EstrichartenFontonly.png");
+    /*background-size: cover;*/
+  }
+
 
 
 
