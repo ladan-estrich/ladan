@@ -11,5 +11,11 @@ function animateValue(obj, start, end, duration) {
     window.requestAnimationFrame(step);
 }
 
+// const obj = document.getElementsByClassName("value");
 const obj = document.getElementById("value");
+const obj2 = document.getElementById("value1");
+const obj3 = document.getElementById("value2");
+
 animateValue(obj, 0, 65000, 3000);
+animateValue(obj2, 0, 65000, 3000);
+animateValue(obj3, 0, 65000, 3000);

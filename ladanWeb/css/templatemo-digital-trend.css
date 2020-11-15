@@ -33,7 +33,7 @@ https://templatemo.com/tm-538-digital-trend
   :root {
     --temporary-color:      #888;
     --primary-color:        #057a8d;
-    --yellow-color:            #f1c111;
+    --yellow-color:         #f1c111;
     --white-color:          #ffffff;
     --dark-color:           #171819;
     --project-bg:           #f0f8ff;
@@ -56,7 +56,7 @@ https://templatemo.com/tm-538-digital-trend
     --h3-font-size:         24px;
     --p-font-size:          18px;
     --base-font-size:       16px;
-    --menu-font-size:       14px;
+    --menu-font-size:       18px;
 
     --border-radius-large:  100px;
     --border-radius-small:  5px;
@@ -156,10 +156,12 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .custom-btn.btn-bg {
-    background: var(--white-color);
-    color: var(--red-color);
+
+    background: var(--temporary-color);
+    color: var(--white-color);
     border-color: transparent;
 	transition: all .3s ease;
+    box-shadow: 0px 0px 8px  var(--dark-color);
   }
   
   .custom-btn:hover,
@@ -167,6 +169,7 @@ https://templatemo.com/tm-538-digital-trend
     background: var(--red-color);
     color: var(--white-color);
     border-color: transparent;
+    box-shadow: none;
   }
 
 
@@ -365,17 +368,26 @@ https://templatemo.com/tm-538-digital-trend
 -----------------------------------------*/
 
   #productsAndStats {
-  padding-top: 25%;
+    padding-top: 25%;
     padding-bottom: 25%;
     height: auto !important;
-    /*min-height: 100%;*/
+    min-height: 100%;
     background: url("../images/EstrichartenFontonly.png") no-repeat center;
     background-size: cover;
 
     text-align: center;
   }
+  .quadrat {
+    /*background-color: var(--red-color) ;*/
+    min-height: 30px;
+    margin: 0 10px 0 10px;
+    box-shadow: 100% var(--red-color);
+    opacity: 0.5;
+  }
 
-  #value {
+
+
+  #value1, #value2, #value {
     font-size: 4em;
   }
 
