@@ -372,23 +372,34 @@ https://templatemo.com/tm-538-digital-trend
     padding-bottom: 25%;
     height: auto !important;
     min-height: 100%;
-    background: url("../images/EstrichartenFontonly.png") no-repeat center;
+    /*background: url("../images/EstrichartenFontonly.png") no-repeat center;*/
     background-size: cover;
 
     text-align: center;
   }
   .quadrat {
-    /*background-color: var(--red-color) ;*/
-    min-height: 30px;
-    margin: 0 10px 0 10px;
-    box-shadow: 100% var(--red-color);
-    opacity: 0.5;
+    background-color: rgba(150, 150, 150, 0.75);
+    border-radius: 10px;
+    min-height: 20px;
+    width: 80px;
+    margin: 33px 20px 0 20px;
+    box-shadow:  var(--red-color);
+    /*white-space: nowrap;*/
+
+  }
+
+  .quadrat hr{
+    width: 50%;
+    border: 1px solid var(--red-color);
+    border-radius: 10px;
   }
 
 
-
   #value1, #value2, #value {
+
     font-size: 4em;
+    white-space: nowrap;
+
   }
 
   /*---------------------------------------
