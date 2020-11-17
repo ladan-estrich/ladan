@@ -378,7 +378,7 @@ https://templatemo.com/tm-538-digital-trend
     text-align: center;
   }
   .quadrat {
-    background-color: rgba(150, 150, 150, 0.75);
+    /*background-color: rgba(150, 150, 150, 0.75);*/
     border-radius: 10px;
     min-height: 20px;
     width: 80px;
@@ -537,6 +537,9 @@ https://templatemo.com/tm-538-digital-trend
     margin: 0 auto;
   }
 
+  .abouttxt{
+    margin-top: 125px;
+  }
 
 
   /*---------------------------------------

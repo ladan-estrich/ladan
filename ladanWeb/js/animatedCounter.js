@@ -1,5 +1,4 @@
 function animateValue(obj, start, end, duration) {
-    // let str = "m2";
     let startTimestamp = null;
     const step = (timestamp) => {
         if (!startTimestamp) startTimestamp = timestamp;
